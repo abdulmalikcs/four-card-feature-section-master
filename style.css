@@ -29,6 +29,7 @@ span {
 }
 
 .super ,.calcu{
+    position: relative;
     transform: translateY(50%);
     -webkit-transform: translateY(50%);
     -moz-transform: translateY(50%);
@@ -39,6 +40,49 @@ span {
 .row > .col-main {
     width: 350px;
     height: 250px;
+}
+
+.col-main .card {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.super .card-body {
+    border-top: 5px solid #43D3D3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.calcu .card-body {
+    border-top: 5px solid #43D3D3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.team .card-body {
+    border-top: 5px solid #539EF0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.karma .card-body {
+    border-top: 5px solid #FBAD4B;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 @media (max-width:1200px) {
